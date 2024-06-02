@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class="sidebar">
+            <div class="top-icons">
+                <i class="fa-solid fa-bars-staggered top-icon"></i>
+                <i class="fa-solid fa-pen-to-square top-icon"></i>
+            </div>
+            <div class="links">
+                <div class="bots">
+                    <div class="bot">
+                        <div class="bot-img-wrap">
+                            <img src="logo.png" class="bot-logo">
+                        </div>
+                        <p class="bot-name">ChatGPT</p>
+                    </div>
+                    <div class="bot">
+                        <div class="bot-img-wrap">
+                            <img src="copilot2.png" class="bot-logo copilot-logo">
+                        </div>
+                        <p class="bot-name">Copilot</p>
+                    </div>
+                    <div class="bot">
+                        <div class="bot-img-wrap">
+                            <img src="globe-solid.svg" class="bot-logo svg-logo">
+                        </div>
+                        <p class="bot-name">Explore GPTs</p>
+                    </div>
+                </div>
+                <div class="history">
+                    <p class="time">Yesterday</p>
+                    <ul class="chat-history">
+                        <li>
+                            <a class="chat-title">Expense Table Functionality</a>
+                        </li>
+                        <li>
+                            <a class="chat-title">Tennis Game with JS</a>
+                        </li>
+                        <li>
+                            <a class="chat-title">Color System for Trello</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="account-wrap">
+                <div class="account-img">AK</div>
+                <div class="account-text">
+                    <p class="name">Annie Koop</p>
+                    <p class="account-type">Personal Account</p>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-top">
+                <div class="gpt-wrap">
+                    <p class="gpt">ChatGPT <span class="gpt-version">4o</span></p>
+                    <i class="fa-solid fa-chevron-down expand-icon"></i>
+                </div>
+                <div class="account-img-top">AK</div>
+            </div>
+            <div class="main-center">
+                <div class="gpt-logo">
+                    <img src="logo.png" class="logo-icon">
+                </div>
+                <div class="chat-suggestions">
+                    <div class="suggestion">
+                        <i class="fa-solid fa-graduation-cap suggestion-icon"></i>
+                        <p class="suggestion-text">Study vocabulary</p>
+                    </div>
+                    <div class="suggestion">
+                        <i class="fa-solid fa-terminal suggestion-icon"></i>
+                        <p class="suggestion-text">Python script for daily email reports</p>
+                    </div>
+                    <div class="suggestion">
+                        <i class="fa-solid fa-pen-clip suggestion-icon"></i>
+                        <p class="suggestion-text">Create a workout plan</p>
+                    </div>
+                    <div class="suggestion">
+                        <i class="fa-solid fa-lightbulb suggestion-icon"></i>
+                        <p class="suggestion-text">Design a fun coding game</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-bottom">
+                <div class="chat-bar">
+                    <div class="bar-left">
+                            <i class="fa-solid fa-paperclip attach-icon"></i>
+                        <input id="chat" class="chat-input" placeholder="Message ChatGPT">
+                    </div>
+                    <button id="chat-btn" class="send-btn"><i class="fa-solid fa-arrow-up send-icon"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/5dbbbfb0c5.js" crossorigin="anonymous"></script>
+    </body>
+</html>
